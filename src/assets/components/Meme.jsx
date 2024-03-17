@@ -5,8 +5,11 @@ export default function Meme() {
 
     function handleGetMemeBtn(){
         const memesArray = MemesData.data.memes
+        // console.log(memesArray)
         const randomMeme = Math.floor(Math.random() * memesArray.length)
         console.log(randomMeme)
+        const memeUrl = memesArray[randomMeme].url
+        console.log(memeUrl)
         }
 
     return (
