@@ -1,4 +1,13 @@
+import React from "react"
+import MemesData from "../../MemesData"
+
 export default function Meme() {
+
+    function handleGetMemeBtn(){
+        const memesArray = MemesData.data.memes
+        console.log(memesArray)
+        }
+
     return (
         <main>
             <form action="">
@@ -14,7 +23,7 @@ export default function Meme() {
                         type="text"
                         placeholder="Text here" />
                 </div>
-                <button className="form-btn">Get a new meme</button>
+                <button type="button" onClick={handleGetMemeBtn}className="form-btn">Get a new meme image</button>
             </form>
         </main>
     )

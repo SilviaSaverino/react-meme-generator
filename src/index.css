@@ -1,9 +1,28 @@
+header {
+  background: linear-gradient(90deg, #cf1a74 1.18%, #543be0 100%);
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  color: #fafafa;
+  padding: 1em;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.header-title {
+  margin-left: auto;
+  font-size: 1.3rem;
+}
 
 main {
   padding: 0.5em;
 }
 
 form {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.6em;
@@ -29,6 +48,13 @@ input {
 }
 
 .form-btn {
+  cursor: pointer;
+  font-family: "Karla", sans-serif;
+  background: linear-gradient(90deg, #cf1a74 1.18%, #543be0 100%);
+  color: #fafafa;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
   padding: 0.6em;
 }
 
@@ -48,6 +74,7 @@ input {
 }
 
 @media (min-width: 800px) {
+ 
 
   form {
     max-width: 50vw;
