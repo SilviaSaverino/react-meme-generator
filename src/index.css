@@ -59,8 +59,12 @@ input {
 }
 
 .meme-img {
-  width: 150px;
-  height: 150px;
+  margin: 2em auto;
+  display: block;
+  width: 100%;
+  padding: 0.2em;
+  background: linear-gradient(90deg, #cf1a74 1.18%, #543be0 100%);
+  border-radius: 5px;
 }
 
 @media (min-width: 445px) {
@@ -80,9 +84,12 @@ input {
 
 @media (min-width: 800px) {
  
-
   form {
     max-width: 50vw;
     padding: 1.5em;
+  }
+  
+  .meme-img {
+    max-width: 50vw;
   }
 }
