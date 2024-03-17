@@ -1,5 +1,3 @@
-import React, {useState} from "react"
-import MemesData from "../../MemesData"
 import React, {useState, useEffect} from "react"
 // import MemesData from "../../MemesData"
 
