@@ -1,69 +1,56 @@
-header {
-  background-color: #e68484;
-  display: flex;
-  align-items: center;
-  height: 10vh;
-  color: #fafafa;
-}
-
-header, form {
-  padding: 1em;
-}
-
-.logo {
-  border-radius: 50%;
-  padding: 1.6em 0;
-}
-
-.header-title {
-  margin-left: auto;
-}
 
 main {
-  padding: 2em 0;
+  padding: 0.5em;
 }
 
 form {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.6em;
-  height: 20vh;
-  background-color: green;
+  padding: 0.8em;
+  margin: 0 auto;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
+label,
+.form-inputs {
+  display: block;
 }
 
 input {
-  height: 20%;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 10px;
+  margin: 0.5em 0;
+  min-height: 35px;
+  width: 100%;
 }
 
-@media (min-width: 445px){
-  
-  form {
-    display: block;
-    margin: 0 auto;
-    background-color: red;
-    padding: 0;
+.form-btn {
+  padding: 0.6em;
+}
+
+@media (min-width: 445px) {
+  main {
+    padding: 2em;
   }
 
-  input {
-    width: 44%;
-    margin: 0.7em;
+  header {
+    padding: 1.8em;
   }
 
-  button {
-    display: block;
-    width: 91%;
-    margin: 0 auto;
-    padding: 0.6em;
+  .logo {
+    width: 50px;
+    height: auto;
   }
 }
 
 @media (min-width: 800px) {
-  .header-title {
-    font-size: 2rem;
-  }
 
   form {
     max-width: 50vw;
+    padding: 1.5em;
   }
 }
