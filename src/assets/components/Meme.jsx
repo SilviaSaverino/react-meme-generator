@@ -27,6 +27,8 @@ export default function Meme() {
         
         setMeme(prevMeme => ({
             ...prevMeme,
+            topText: "",
+            bottomText: "",
             randomImage: memeUrl,
             
         }))
