@@ -6,7 +6,8 @@ export default function Meme() {
     const [meme, setMeme] = useState({
         topText: "",
         bottomText: "",
-        randomImage: "http://i.imgflip.com/1bij.jpg" 
+        randomImage:""
+        // PLACEHOLDER randomImage: "http://i.imgflip.com/1bij.jpg" 
     })
 
 
@@ -37,7 +38,7 @@ export default function Meme() {
                 </div>
                 <button type="button" onClick={handleGetMemeBtn}className="form-btn">Get a new meme image</button>
             </form>
-            <img className="meme-img" src={meme.randomImage} alt="random meme image" />
+            {meme.randomImage && <img className="meme-img" src={meme.randomImage} alt="random meme image" />}
         </main>
     )
 }
