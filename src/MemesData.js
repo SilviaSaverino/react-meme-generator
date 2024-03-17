@@ -1,4 +1,3 @@
-@ -0,0 +1,807 @@
 export default {
     "success": true,
     "data": {
