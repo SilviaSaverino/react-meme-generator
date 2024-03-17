@@ -18,7 +18,7 @@ export default function Meme() {
         .then(data => setAllMemeData(data.data.memes))
     },[])
 
-    console.log(allMemeData)
+    // console.log(allMemeData)
 
 
     function GetMemeImageBtn(){
