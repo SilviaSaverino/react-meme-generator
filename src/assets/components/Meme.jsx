@@ -22,9 +22,8 @@ export default function Meme() {
 
 
     function GetMemeImageBtn(){
-        const memesArray = allMemeData
-        const randomMeme = Math.floor(Math.random() * memesArray.length)
-        const memeUrl = memesArray[randomMeme].url
+        const randomMeme = Math.floor(Math.random() * allMemeData.length)
+        const memeUrl = allMemeData[randomMeme].url
         
         setMeme(prevMeme => ({
             ...prevMeme,
