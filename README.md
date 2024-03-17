@@ -4,7 +4,7 @@ This repository contains a Meme Generator project built with React.
 
 The project allows users to generate memes by adding custom text to randomly fetched images from the Imgflip API.
 
-Check out the project [Live Site](https://silviasaverino.github.io/react-meme-generator/)
+Check out the project <a href="https://silviasaverino.github.io/react-meme-generator/" target="_blank">Live Site</a>.
 
 ![image of meme generator project](./public/images/meme1.png)
 
